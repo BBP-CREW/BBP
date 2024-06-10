@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/views/layout/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp"/>
+	</definition>
+	<definition name="/develBoard" extends="baseLayout">
+		<put-attribute name="title" value="지식게시판"/>
+		<put-attribute name="body"  value="/WEB-INF/views/board/develBoard.jsp"/>
+	</definition>
+	<definition name="/chatBoard" extends="baseLayout">
+		<put-attribute name="title" value="커뮤니티게시판"/>
+		<put-attribute name="body"  value="/WEB-INF/views/board/chatBoard.jsp"/>
+	</definition>
+	<definition name="/boardWrite" extends="baseLayout">
+		<put-attribute name="title" value="게시글 작성"/>
+		<put-attribute name="body"  value="/WEB-INF/views/board/boardWrite.jsp"/>
+	</definition>
+</tiles-definitions>
