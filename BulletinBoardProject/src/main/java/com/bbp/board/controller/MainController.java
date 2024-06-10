@@ -1,4 +1,4 @@
-package com.bbp.board;
+package com.bbp.board.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/")
 public class MainController {
-	
 		@GetMapping("main")
 		public ModelAndView home () {
 			return new ModelAndView("/main");

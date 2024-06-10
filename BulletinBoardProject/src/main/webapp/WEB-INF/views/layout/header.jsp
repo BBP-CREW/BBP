@@ -40,8 +40,6 @@
         </div>
     </div>
     <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="${contextPath}/aboutUs" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
@@ -57,13 +55,13 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">게시판</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="" class="dropdown-item">지식</a>
-                        <a href="quote.html" class="dropdown-item">커뮤니티</a>
+                        <a href="${contextPath}/develBoard" class="dropdown-item">지식</a>
+                        <a href="${contextPath}/chatBoard" class="dropdown-item">커뮤니티</a>
                     </div>
                 </div>
                 <a href="${contextPath}/gallary" class="nav-item nav-link">갤러리</a>
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">로그인<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="${contextPath}/login" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">로그인<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->

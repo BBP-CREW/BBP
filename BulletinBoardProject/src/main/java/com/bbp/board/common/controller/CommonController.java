@@ -1,4 +1,4 @@
-package com.bbp.board.common;
+package com.bbp.board.common.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

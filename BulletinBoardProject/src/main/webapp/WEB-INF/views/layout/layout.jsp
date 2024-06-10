@@ -50,7 +50,7 @@
 
 	<tiles:insertAttribute name="body"/>
     <!-- Carousel Start -->
-s    <!-- Carousel End -->
+    <!-- Carousel End -->
 
 	
     <!-- Feature Start -->

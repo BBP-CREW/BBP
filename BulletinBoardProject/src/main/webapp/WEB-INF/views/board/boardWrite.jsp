@@ -26,6 +26,22 @@
         <div class="container py-5">
             <h1 class="display-3 text-black mb-3 animated slideInDown">게시글 작성</h1>
         </div>
+		<div class="selectBoard">
+			<table>
+				<tr>
+					<td>게시판 선택</td>
+					<th>
+						<select id="" name="">
+						<option>지식 게시판</option>
+						<option>커뮤니티 게시판</option>
+						<option>이미지</option>
+						</select>
+					</th>
+				</tr>
+				<tr>
+				</tr>
+			</table>
+		</div>
     </div>
 	<section>
     <div class="ckeditor">
